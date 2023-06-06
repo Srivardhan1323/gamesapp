@@ -13,7 +13,7 @@ const session=require('express-session');
 
 //'mongodb://127.0.0.1:27017/game-base'
 const DB_URL=process.env.DB_URL
-mongoose.connect(DB_URL)
+mongoose.connect(DB_URL ,{ useNewUrlParser: true, useUnifiedTopology: true })
 .then(()=>{
     console.log("MONGO CONNECTED!!!");
 })
