@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "dev":"nodemon index.js",
-     "build":"npm i"
+    "dev": "nodemon index.js",
+    "build": "npm i"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
     "ejs": "^3.1.9",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
-    "mongoose": "^7.2.2"
+    "mongoose": "^7.2.2",
+    "nodemon": "^2.0.22"
   }
 }
